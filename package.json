@@ -2,8 +2,8 @@
   "name": "island-loggers",
   "version": "0.1.0",
   "description": "An island compatible logger that understand distributed environment",
-  "main": "dist/index.js",
-  "typings": "dist/index.d.ts",
+  "main": "dist/loggers.js",
+  "typings": "dist/loggers.d.ts",
   "author": "heycalmdown <hey.calmdown@gmail.com>",
   "contributors": [],
   "scripts": {
