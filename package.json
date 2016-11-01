@@ -1,0 +1,30 @@
+{
+  "name": "island-loggers",
+  "version": "0.1.0",
+  "description": "An island compatible logger that understand distributed environment",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "author": "heycalmdown <hey.calmdown@gmail.com>",
+  "contributors": [],
+  "scripts": {
+    "prepublish": "gulp build",
+    "build": "gulp build",
+    "watch": "gulp build && gulp watch",
+    "clean": "gulp clean",
+    "test": "gulp build && DEBUG=* jasmine",
+    "coverage": "gulp coverage"
+  },
+  "dependencies": {
+    "continuation-local-storage": "^3.2.0",
+    "source-map-support": "^0.4.2",
+    "winston": "^2.2.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-istanbul": "^1.1.1",
+    "gulp-jasmine": "^2.4.1",
+    "gulp-sourcemaps": "^1.6.0",
+    "remap-istanbul": "^0.6.4",
+    "std-mocks": "^1.0.1"
+  }
+}
