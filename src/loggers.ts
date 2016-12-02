@@ -1,4 +1,4 @@
-const cls = require('continuation-local-storage');
+import * as cls from 'continuation-local-storage';
 import * as winston from 'winston';
 import * as _ from 'lodash';
 const config = require('winston/lib/winston/config');
