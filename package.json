@@ -1,6 +1,6 @@
 {
   "name": "island-loggers",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An island compatible logger that understand distributed environment",
   "main": "dist/loggers.js",
   "typings": "dist/loggers.d.ts",
