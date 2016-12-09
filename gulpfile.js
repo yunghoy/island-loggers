@@ -66,7 +66,7 @@ function jasmineTask(name) {
 }
 
 function preIstanbulTask() {
-  return gulp.src(['dist/**/*.js'])
+  return gulp.src(['dist/**/*.js', '!dist/loggers-bugfix.js'])
     .pipe(istanbul())
     .pipe(istanbul.hookRequire());
 }
